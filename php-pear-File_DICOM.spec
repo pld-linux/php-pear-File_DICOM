@@ -1,10 +1,10 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          File
-%define         _subclass       DICOM
+%define		_class		File
+%define		_subclass	DICOM
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
 
-Summary:	%{_pearname} - Package for reading and modifying DICOM files
+Summary:	%{_pearname} - package for reading and modifying DICOM files
 Summary(pl):	%{_pearname} - odczyt i modyfikowanie plików DICOM
 Name:		php-pear-%{_pearname}
 Version:	0.3
