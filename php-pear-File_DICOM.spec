@@ -29,7 +29,7 @@ package in particular does not support the exchange/transfer of DICOM
 data, nor any network related functionality. More information on the
 DICOM standard can be found at: http://medical.nema.org/.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 File_DICOM pozwala na czytanie i modyfikowanie plików DICOM.
