@@ -3,15 +3,16 @@
 %define         _subclass       DICOM
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
+
 Summary:	%{_pearname} - Package for reading and modifying DICOM files
 Summary(pl):	%{_pearname} - odczyt i modyfikowanie plików DICOM
 Name:		php-pear-%{_pearname}
-Version:	0.2
+Version:	0.3
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	399ed274843695f8424e993ab88e00b6
+# Source0-md5:	e5392bb15f1cdd24cbeec20465c1fced
 URL:		http://pear.php.net/package/File_DICOM/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
@@ -59,6 +60,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{php_pear_dir}/%{_class}/*.php
 %dir %{php_pear_dir}/%{_class}/%{_subclass}
+%{php_pear_dir}/%{_class}/*.php
 %{php_pear_dir}/%{_class}/%{_subclass}/*.php
