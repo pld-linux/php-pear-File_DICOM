@@ -1,17 +1,17 @@
 %include	/usr/lib/rpm/macros.php
 %define         _class          File
 %define         _subclass       DICOM
-%define		_status		alpha
+%define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - Package for reading and modifying DICOM files
 Summary(pl):	%{_pearname} - odczyt i modyfikowanie plików DICOM
 Name:		php-pear-%{_pearname}
-Version:	0.1
+Version:	0.2
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	08f0ce617a5d4cbb8f08df6792b798f3
+# Source0-md5:	399ed274843695f8424e993ab88e00b6
 URL:		http://pear.php.net/package/%{_pearname}/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
@@ -49,7 +49,7 @@ Ta klasa ma w PEAR status: %{_status}.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{php_pear_dir}/%{_class}/{,%{_subclass}}
+install -d $RPM_BUILD_ROOT%{php_pear_dir}/%{_class}/%{_subclass}
 
 install %{_pearname}-%{version}/*.php $RPM_BUILD_ROOT%{php_pear_dir}/%{_class}
 install %{_pearname}-%{version}/%{_subclass}/*.php $RPM_BUILD_ROOT%{php_pear_dir}/%{_class}/%{_subclass}
