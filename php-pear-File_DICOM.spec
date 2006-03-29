@@ -8,7 +8,7 @@ Summary:	%{_pearname} - package for reading and modifying DICOM files
 Summary(pl):	%{_pearname} - odczyt i modyfikowanie plików DICOM
 Name:		php-pear-%{_pearname}
 Version:	0.3
-Release:	3
+Release:	4
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
