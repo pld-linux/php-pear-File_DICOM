@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - package for reading and modifying DICOM files
-Summary(pl):	%{_pearname} - odczyt i modyfikowanie plikÛw DICOM
+Summary(pl.UTF-8):   %{_pearname} - odczyt i modyfikowanie plik√≥w DICOM
 Name:		php-pear-%{_pearname}
 Version:	0.3
 Release:	4
@@ -33,16 +33,16 @@ DICOM standard can be found at: http://medical.nema.org/.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-File_DICOM pozwala na czytanie i modyfikowanie plikÛw DICOM.
+%description -l pl.UTF-8
+File_DICOM pozwala na czytanie i modyfikowanie plik√≥w DICOM.
 
-DICOM to skrÛt od Digital Imaging and COmmunications in Medicine
+DICOM to skr√≥t od Digital Imaging and COmmunications in Medicine
 (cyfrowe obrazy i komunikacja w medycynie) i jest standardem do
-tworzenia, przechowywania i przesy≥ania cyfrowych obrazÛw
-(prze∂wietleÒ, tomografii) oraz powi±zanych informacji uøywanych w
-medycynie. Ten pakiet akurat nie obs≥uguje wymiany/przesy≥ania danych
-DICOM, ani øadnej funkcjonalno∂ci zwi±zanej z sieci±. WiÍcej
-informacji o standardzie DICOM moøna znaleºÊ pod
+tworzenia, przechowywania i przesy≈Çania cyfrowych obraz√≥w
+(prze≈õwietle≈Ñ, tomografii) oraz powiƒÖzanych informacji u≈ºywanych w
+medycynie. Ten pakiet akurat nie obs≈Çuguje wymiany/przesy≈Çania danych
+DICOM, ani ≈ºadnej funkcjonalno≈õci zwiƒÖzanej z sieciƒÖ. Wiƒôcej
+informacji o standardzie DICOM mo≈ºna znale≈∫ƒá pod
 http://medical.nema.org/.
 
 Ta klasa ma w PEAR status: %{_status}.
