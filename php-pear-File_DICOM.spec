@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - package for reading and modifying DICOM files
-Summary(pl.UTF-8):   %{_pearname} - odczyt i modyfikowanie plików DICOM
+Summary(pl.UTF-8):	%{_pearname} - odczyt i modyfikowanie plików DICOM
 Name:		php-pear-%{_pearname}
 Version:	0.3
 Release:	4
